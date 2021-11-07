@@ -59,7 +59,9 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
 Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'neoclide/coc.vim',{'branch':'release'}
+Plug 'neoclide/coc.nvim',{'branch':'release'}
+Plug 'sudar/vim-arduino-syntax'
+"Plug 'vim-scrpts/Arduino-syntax-file'
 
 call plug#end()
 
