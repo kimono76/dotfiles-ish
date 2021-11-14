@@ -1,3 +1,7 @@
+#Arduino cli completion 
+fpath=($HOME/completion_zsh $fpath)
+
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -109,5 +113,5 @@ neofetch --source ~/source/repos/dotfiles-ish/qimono-8bit --acii_colors 4
 alias repos="cd source/repos && ls -la"
 alias vi="nvim"
 alias cls="clear && neofetch --source ~/source/repos/dotfiles-ish/qimono-8bit --acii_colors 4"
-
+alias ar="arduino-cli"
 
