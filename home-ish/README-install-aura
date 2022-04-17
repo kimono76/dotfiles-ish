@@ -1,0 +1,4 @@
+Open aura-theme.dconf and save it as aura-theme.dconf in your home folder without txt extension that the browser will infer
+Open Gnome Terminal and run:
+dconf load /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/ < ~/aura-theme.dconf
+Open a new window to see if the theme has been applied, if not open the preferences and select the Aura Theme profile.
